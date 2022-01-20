@@ -1,0 +1,47 @@
+#board {
+    position: relative;
+width: 1024px;
+height: 863px;
+margin: auto;
+background: url("../images/battle_background.jpg") no-repeat;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+filter: brightness(0.6);
+}
+th {
+    font-size: 40px;
+    color: white;
+}
+tr, td {
+    border: 2px solid white;
+}
+table {
+    width: 100%;
+    height: 100%;
+}
+form {
+    width: 1024px;
+    margin: 50px auto;
+}
+input {
+    height: 50px;
+    width: 500px;
+    font-size: 30px
+}
+#message-area {
+    font-size: 25px;
+}
+p, h1 {
+    width: 1024px;
+    margin: 20px auto;
+    text-align: center;
+}
+.hit {
+    background: url('../images/ship.png') no-repeat center center;
+    background-size: contain;
+}
+.miss {
+    background: url('../images/miss.png') no-repeat center center;
+    background-size: contain;
+}
